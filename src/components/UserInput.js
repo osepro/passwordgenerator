@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import PasswordGenerate from "components/PasswordGenerate";
 
-function UserInput(props) {
+function UserInput() {
 	const [minInput, setMinInput] = useState(1);
 	const [maxInput, setMaxInput] = useState(1);
 	const [startGen, setStartGen] = useState(false);
