@@ -17,7 +17,7 @@ function PasswordGenerate({ minimum, maximum }) {
 
 	return (
 		<div>
-			<p>{generatedPassword}</p>
+			<p className="passworddisplay">{generatedPassword}</p>
 		</div>
 	);
 }
