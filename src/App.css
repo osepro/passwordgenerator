@@ -11,6 +11,14 @@
 	font-size: 2em;
 	color: hsl(193, 42%, 47%);
 }
+button {
+	background: black;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	border: solid 1px #000;
+	font-weight: bold;
+}
 
 @media (prefers-reduced-motion: no-preference) {
 	.App-logo {
